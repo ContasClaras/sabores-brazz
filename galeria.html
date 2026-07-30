@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria — Sabores na Braza</title>
+<meta name="description" content="Galeria de fotos do Sabores na Braza: os nossos pratos grelhados na braza e o nosso espaço em Vila Franca de Xira.">
+<link rel="icon" href="logo.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.jpg" alt="Sabores na Braza — Restaurante">
+      <span class="brand-text"><span class="b1">Sabores na Braza</span><span class="b2">Restaurante</span></span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="ementa.html">Ementa</a></li>
+        <li><a href="galeria.html" aria-current="page">Galeria</a></li>
+        <li><a href="localizacao.html">Localização</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="grate-bg"></div>
+    <div class="container page-hero-inner">
+      <span class="eyebrow">Galeria</span>
+      <h1>Pratos feitos<br>na braza</h1>
+      <p class="lead">Uma amostra do que sai da nossa cozinha — e da sala que preparámos para o receber.</p>
+    </div>
+  </section>
+
+  <section class="section-pad on-coal">
+    <div class="container">
+
+      <div class="filter-bar reveal">
+        <button class="filter-btn is-active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="comida">Comida</button>
+        <button class="filter-btn" data-filter="espaco">Espaço</button>
+      </div>
+
+      <div class="masonry reveal">
+        <figure data-cat="comida">
+          <img src="polvo-lagareiro.jpg" data-full="polvo-lagareiro.jpg" alt="Polvo à lagareiro com batata a murro">
+          <figcaption>Polvo à Lagareiro</figcaption>
+        </figure>
+        <figure data-cat="espaco">
+          <img src="espaco-sala-1.jpg" data-full="espaco-sala-1.jpg" alt="Sala do restaurante Sabores na Braza, mesas preparadas">
+          <figcaption>A Nossa Sala</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="entrecosto-batata.jpg" data-full="entrecosto-batata.jpg" alt="Entrecosto grelhado na braza com batata assada">
+          <figcaption>Entrecosto na Braza</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="ovos-rotos.jpg" data-full="ovos-rotos.jpg" alt="Ovos rotos com presunto e batata frita">
+          <figcaption>Ovos Rotos com Presunto</figcaption>
+        </figure>
+        <figure data-cat="espaco">
+          <img src="espaco-adega.jpg" data-full="espaco-adega.jpg" alt="Estante com seleção de vinhos e loiça do restaurante">
+          <figcaption>A Nossa Adega</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="bacalhau-a-bras.jpg" data-full="bacalhau-a-bras.jpg" alt="Bacalhau à Brás desfiado com batata palha, ovo e azeitonas">
+          <figcaption>Bacalhau à Brás</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="bife-batata-salada.jpg" data-full="bife-batata-salada.jpg" alt="Bife à portuguesa com batata frita caseira e salada">
+          <figcaption>Bife à Portuguesa</figcaption>
+        </figure>
+        <figure data-cat="espaco">
+          <img src="espaco-sala-2.jpg" data-full="espaco-sala-2.jpg" alt="Interior do restaurante, zona de bar e decoração">
+          <figcaption>O Nosso Espaço</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="caracois.jpg" data-full="caracois.jpg" alt="Caracóis à moda da casa">
+          <figcaption>Caracóis</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="peixe-cebolada.jpg" data-full="peixe-cebolada.jpg" alt="Peixe grelhado com cebolada e ovo picado">
+          <figcaption>Peixe com Cebolada</figcaption>
+        </figure>
+        <figure data-cat="comida">
+          <img src="entrecosto-grelos.jpg" data-full="entrecosto-grelos.jpg" alt="Entrecosto com grelos e feijão frade">
+          <figcaption>Entrecosto, Grelos e Feijão Frade</figcaption>
+        </figure>
+      </div>
+
+      <div style="text-align:center; margin-top:48px;">
+        <a href="localizacao.html" class="btn btn-ember">Reservar Mesa de Grupo</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- lightbox -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+  <button class="lightbox-close" aria-label="Fechar">&times;</button>
+  <img alt="">
+  <div class="lightbox-cap"></div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="logo.jpg" alt="">
+          <div class="fb-text"><span class="b1">Sabores na Braza</span><span class="b2">Restaurante</span></div>
+        </div>
+        <p>Grelhados com tradição, feitos na hora. Carnes, peixe e marisco na braza, no coração de Vila Franca de Xira.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegar</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="ementa.html">Ementa</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visite-nos</h4>
+        <ul>
+          <li>Rua 1 de Dezembro 31<br>2600-225 Vila Franca de Xira</li>
+          <li><a href="tel:+351918517394">918 517 394</a></li>
+          <li><a href="localizacao.html">Ver mapa e indicações →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Sabores na Braza</span>
+      <span>Aceitamos Multibanco</span>
+      <span>Grelhados com tradição · Feitos na hora</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="main.js"></script>
+</body>
+</html>
